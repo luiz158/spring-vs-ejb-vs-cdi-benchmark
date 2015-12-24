@@ -55,11 +55,18 @@ Example:
 
 #### WebSphere Application Server 8.5.5.4 for z/OS
 
-![Mainframe logo][zBC logo] IBM Mainframe [zBC 12]: 2 GeneralCP + 1 zIIP, 32 GB RAM, z/OS 2.1, IBM J9 VM R26 SR7 based on Oracle 7u55-b13
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td align="center"><img alt="Mainframe logo" src="http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg"/></td>
+      <td valign="top">IBM Mainframe [zBC 12]: 2 GeneralCP + 1 zIIP, 32 GB RAM, z/OS 2.1, IBM J9 VM R26 SR7 based on Oracle 7u55-b13</td>
+    </tr>
+  </tbody>
+</table>
+
+Operations per second, the picture is clickable:
 
 ![Mainframe results][zBC results]
-
-Operations per second, the picture is clickable.
 
 [zBC 12]: http://www-03.ibm.com/systems/z/hardware/zenterprise/zbc12.html "IBM zEnterprise Business Class 12"
 [zBC logo]: http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg
@@ -67,19 +74,19 @@ Operations per second, the picture is clickable.
 
 #### WebSphere Application Server 8.5.5.8 Network Deployment
 
-<table cellspacing="0" cellpadding="0" border="0">
-  <tbody border="0">
-    <tr border="0" cellspacing="0" cellpadding="0">
-      <td align="center" border="0" cellspacing="0" cellpadding="0"><img alt="Lenovo logo" src="http://2.bp.blogspot.com/-7-XGK0t7LhM/VnxFsFMk7LI/AAAAAAAADrs/2f6vegROCYA/s1600/Lenovo-small.jpg"/></td>
-      <td valign="top" border="0" cellspacing="0" cellpadding="0">Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based 
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td align="center"><img alt="Lenovo logo" src="http://2.bp.blogspot.com/-7-XGK0t7LhM/VnxFsFMk7LI/AAAAAAAADrs/2f6vegROCYA/s1600/Lenovo-small.jpg"/></td>
+      <td valign="top">Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based 
         on Oracle 7u85-b15</td>
     </tr>
   </tbody>
 </table>
 
-![Lenovo results][Lenovo results]
+Operations per second, the picture is clickable:
 
-Operations per second, the picture is clickable.
+![Lenovo results][Lenovo results]
 
 [Lenovo logo]: http://2.bp.blogspot.com/-7-XGK0t7LhM/VnxFsFMk7LI/AAAAAAAADrs/2f6vegROCYA/s1600/Lenovo-small.jpg
 [Lenovo results]: http://1.bp.blogspot.com/-4BGmfKNkp0Y/VnxaqTERt1I/AAAAAAAADso/QnmLXysuIPw/s1600/Lenovo-result-t-4.png
