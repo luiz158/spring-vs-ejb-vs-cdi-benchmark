@@ -65,10 +65,11 @@ Operations per second, the picture is clickable.
 [zBC logo]: http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg
 [zBC results]: http://2.bp.blogspot.com/-Foo4uNd9sbo/VnxaqW9NuDI/AAAAAAAADss/AIrFhR_Twhk/s1600/zBC12-result-t-4.png
 
-WebSphere Application Server 8.5.5.8 Network Deployment
--------------------------------------------------------
+#### WebSphere Application Server 8.5.5.8 Network Deployment
 
-![Lenovo logo][Lenovo logo] Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based on Oracle 7u85-b15
+|||
+|:---:|:---|
+|![Lenovo logo][Lenovo logo]|Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based on Oracle 7u85-b15|
 
 ![Lenovo results][Lenovo results]
 
