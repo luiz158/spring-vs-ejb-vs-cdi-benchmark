@@ -68,7 +68,7 @@ Operations per second, the picture is clickable.
 #### WebSphere Application Server 8.5.5.8 Network Deployment
 
 <table cellspacing="0" cellpadding="0" border="0">
-  <tbody>
+  <tbody border="0">
     <tr border="0">
       <td align="center" border="0"><img alt="Lenovo logo" src="http://2.bp.blogspot.com/-7-XGK0t7LhM/VnxFsFMk7LI/AAAAAAAADrs/2f6vegROCYA/s1600/Lenovo-small.jpg"/></td>
       <td valign="top" border="0">Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based 
