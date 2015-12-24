@@ -67,9 +67,14 @@ Operations per second, the picture is clickable.
 
 #### WebSphere Application Server 8.5.5.8 Network Deployment
 
-|||
-|-|-|
-|![Lenovo logo][Lenovo logo]|Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based on Oracle 7u85-b15|
+<table>
+  <tbody>
+    <tr>
+      <td>![Lenovo logo][Lenovo logo]</td>
+      <td>Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based on Oracle 7u85-b15</td>
+    </tr>
+  </tbody>
+</table>
 
 ![Lenovo results][Lenovo results]
 
