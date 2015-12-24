@@ -37,11 +37,11 @@ Where:
 
 Allowed parameters:
 
-- `server` - application server's host, **localhost** is default value.
+- `server` - application server's host, `localhost` is default value.
 - `port` - application server's port.
 - `path` - path for the resource. Every path is relative to the `/api/` catalog.
 - `implementation` - technology used for the RESTful service implementation. The passed values are just substituted
-   in the **rest-ws-{implementation}** template for web-applications context-roots.
+   in the `rest-ws-{implementation}` template for web-applications context-roots.
 
 Example:
 
