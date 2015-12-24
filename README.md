@@ -58,7 +58,7 @@ Example:
 <table cellspacing="0" cellpadding="0">
   <tbody>
     <tr>
-      <td align="center"><img alt="Mainframe logo" src="http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg"/></td>
+      <td align="center" width="297"><img alt="Mainframe logo" src="http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg"/></td>
       <td valign="top">IBM Mainframe [zBC 12]: 2 GeneralCP + 1 zIIP, 32 GB RAM, z/OS 2.1, IBM J9 VM R26 SR7 based on Oracle 7u55-b13</td>
     </tr>
   </tbody>
