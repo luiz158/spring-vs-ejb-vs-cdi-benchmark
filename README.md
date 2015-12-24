@@ -2,16 +2,15 @@
 
 A very popular delusion in the Java world is **Spring Framework** provides better performance than good old **Enterprise Java Beans**. The
 best approach to compare technologies is just to get a benchmark. This repository contains three implementations of the same simple
-RESTful web-service based on **Spring MVC**, **EJB** and **CDI**, respectively. Services design is the following: resource providers are injected into a 
-"service" class and the "service" is injected into a controller. The design looks like the usual one for an enterprise application: data-access 
-objects are injected into services and services are injected into facades or controllers. Different technologies are used for *Dependency Injection* 
+RESTful web-service based on **Spring MVC**, **EJB** and **CDI**, respectively. The service design is the following: resource providers are injected 
+into a "service" class and the "service" is injected into a controller. This is the usual design of an enterprise application: data-access 
+objects are injected into services and the services are injected into facades or controllers. Different technologies are used for *Dependency Injection* 
 as well as *RESTfulization*.
  
 
-The service just returns a string built by some letters and current time concationation:
+The service just returns a string built by some letters and current time concatination:
 
 ![Services return the following result](http://3.bp.blogspot.com/-5NXBEd4m07g/VnxUv0OGZgI/AAAAAAAADsU/_RQ_tKKbPT4/s1600/service-result.png)
-
 
 **[JMH](http://openjdk.java.net/projects/code-tools/jmh/ "OpenJDK JMH Tool")** is a Java harness for building, running, and analysing 
 nano/micro/milli/macro benchmarks written in Java and other languages targetting the JVM.
@@ -40,9 +39,9 @@ Allowed parameters:
 
 - `server` - application server's host, **localhost** is default value.
 - `port` - application server's port.
-- `path` - path for the resource.
+- `path` - path for the resource. Every path is relative to the `/api/` catalog.
 - `implementation` - technology used for the RESTful service implementation. The passed implementation is just substituted
-   in the **http://{host}:{port}/rest-ws-{implementation}/api** template for web-applications context-roots.
+   in the **rest-ws-{implementation}** template for web-applications context-roots.
 
 Example:
 
@@ -92,4 +91,3 @@ Operations per second, the picture is clickable:
 [Lenovo results]: http://1.bp.blogspot.com/-4BGmfKNkp0Y/VnxaqTERt1I/AAAAAAAADso/QnmLXysuIPw/s1600/Lenovo-result-t-4.png
 
 Which result have you gone? Please, share it with me: <samolisov@gmail.com>
-
