@@ -22,7 +22,7 @@ The benchmark code contained by the [benchmark code] file.
 ### Benchmark running
 
 ```
-# java -jar rest-benchmark/target/rest-benchmarks.jar ".*Benchmark" -f 4 -wi 20 -i 20 -t 4 -si true -gc
+# java -jar rest-benchmark/target/rest-benchmarks.jar ".*Benchmark" -f 4 -wi 20 -i 20 -t 4 -si true -gc true
 ```
 
 Where:
@@ -40,13 +40,13 @@ Allowed parameters:
 - `server` - application server's host, **localhost** is default value.
 - `port` - application server's port.
 - `path` - path for the resource. Every path is relative to the `/api/` catalog.
-- `implementation` - technology used for the RESTful service implementation. The passed implementation is just substituted
+- `implementation` - technology used for the RESTful service implementation. The passed values are just substituted
    in the **rest-ws-{implementation}** template for web-applications context-roots.
 
 Example:
 
 ```
-# java -jar rest-benchmark/target/rest-benchmarks.jar ".*Benchmark" -f 4 -wi 20 -i 20 -t 4 -si true -gc
+# java -jar rest-benchmark/target/rest-benchmarks.jar ".*Benchmark" -f 4 -wi 20 -i 20 -t 4 -si true -gc true
 -p port=14633 -p implementation=ejb,cdi
 ```
 
@@ -70,7 +70,7 @@ Operations per second, the picture is clickable:
 
 [zBC 12]: http://www-03.ibm.com/systems/z/hardware/zenterprise/zbc12.html "IBM zEnterprise Business Class 12"
 [zBC logo]: http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg
-[zBC results]: http://2.bp.blogspot.com/-Foo4uNd9sbo/VnxaqW9NuDI/AAAAAAAADss/AIrFhR_Twhk/s1600/zBC12-result-t-4.png
+[zBC results]: http://2.bp.blogspot.com/-ryRzfMVDKmo/VnxoeXOg1NI/AAAAAAAADtA/RegeKkyIa0E/s1600/zBC12-result-t-4.png
 
 #### WebSphere Application Server 8.5.5.8 Network Deployment
 
