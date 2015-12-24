@@ -63,7 +63,7 @@ Operations per second, the picture is clickable.
 
 [zBC 12]: http://www-03.ibm.com/systems/z/hardware/zenterprise/zbc12.html "IBM zEnterprise Business Class 12"
 [zBC logo]: http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg
-[zBC results]: http://3.bp.blogspot.com/-u972deNO6Bs/VnxUv1A6BtI/AAAAAAAADsQ/6iJLVPqdROU/s1600/zBC12-result-t-4.png
+[zBC results]: http://2.bp.blogspot.com/-Foo4uNd9sbo/VnxaqW9NuDI/AAAAAAAADss/AIrFhR_Twhk/s1600/zBC12-result-t-4.png
 
 WebSphere Application Server 8.5.5.8 Network Deployment
 -------------------------------------------------------
@@ -75,7 +75,7 @@ WebSphere Application Server 8.5.5.8 Network Deployment
 Operations per second, the picture is clickable.
 
 [Lenovo logo]: http://2.bp.blogspot.com/-7-XGK0t7LhM/VnxFsFMk7LI/AAAAAAAADrs/2f6vegROCYA/s1600/Lenovo-small.jpg
-[Lenovo results]: http://2.bp.blogspot.com/-Sle_djldiIw/VnxIq1tBVfI/AAAAAAAADsA/PaPzK50uNYg/s1600/Lenovo-result-t-4.png
+[Lenovo results]: http://1.bp.blogspot.com/-4BGmfKNkp0Y/VnxaqTERt1I/AAAAAAAADso/QnmLXysuIPw/s1600/Lenovo-result-t-4.png
 
 Which result have you gone? Please, share it with me: <samolisov@gmail.com>
 
