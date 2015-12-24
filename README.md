@@ -70,7 +70,7 @@ Operations per second, the picture is clickable.
 <table>
   <tbody>
     <tr>
-      <td>![Lenovo logo][Lenovo logo]</td>
+      <td><img alt="Lenovo logo" src="http://2.bp.blogspot.com/-7-XGK0t7LhM/VnxFsFMk7LI/AAAAAAAADrs/2f6vegROCYA/s1600/Lenovo-small.jpg"/></td>
       <td>Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based on Oracle 7u85-b15</td>
     </tr>
   </tbody>
