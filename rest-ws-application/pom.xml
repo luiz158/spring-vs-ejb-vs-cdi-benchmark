@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>rest-benchmark</groupId>
+  <artifactId>rest-ws-application</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>ear</packaging>
+
+  <name>rest-ws application (ear)</name>
+  <url>http://maven.apache.org</url>
+
+  <parent>
+    <groupId>rest-benchmark</groupId>
+    <artifactId>benchmark</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>rest-benchmark</groupId>
+      <artifactId>rest-ws-cdi</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>rest-benchmark</groupId>
+      <artifactId>rest-ws-ejb</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>rest-benchmark</groupId>
+      <artifactId>rest-ws-spring</artifactId>
+      <type>war</type>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-ear-plugin</artifactId>
+        <version>2.10</version>
+        <configuration>
+          <version>6</version>
+          <fileNameMapping>no-version</fileNameMapping>
+          <earName>${project.artifactId}</earName>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
