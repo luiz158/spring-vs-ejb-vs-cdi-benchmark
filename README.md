@@ -15,9 +15,7 @@ The service just returns a string built by some letters and current time concati
 **[JMH](http://openjdk.java.net/projects/code-tools/jmh/ "OpenJDK JMH Tool")** is a Java harness for building, running, and analysing 
 nano/micro/milli/macro benchmarks written in Java and other languages targetting the JVM.
 
-The benchmark code contained by the [benchmark code] file.
-
-[benchmark code]: rest-benchmark/src/main/java/psamolysov/demo/restws/benchmark/RestImplementationsBenchmark.java
+The benchmark code contained by the [file](rest-benchmark/src/main/java/psamolysov/demo/restws/benchmark/RestImplementationsBenchmark.java).
 
 ### Benchmark running
 
