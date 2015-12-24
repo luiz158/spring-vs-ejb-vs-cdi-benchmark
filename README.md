@@ -69,6 +69,8 @@ WebSphere Application Server 8.5.5.8 Network Deployment
 
 Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM (7u85-b15)
 
+|cell1|cell2|
+|---|---|
 |![Lenovo results][Lenovo results]|![Lenovo logo][Lenovo logo]|
 |demo|demo|
 
