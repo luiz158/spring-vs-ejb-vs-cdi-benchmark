@@ -58,7 +58,8 @@ Example:
   <tbody>
     <tr>
       <td align="center" width="297"><img alt="Mainframe logo" src="http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg"/></td>
-      <td valign="top">IBM Mainframe [zBC 12]: 2 GeneralCP + 1 zIIP, 32 GB RAM, z/OS 2.1, IBM J9 VM R26 SR7 based on Oracle 7u55-b13</td>
+      <td valign="top">IBM Mainframe <a href="http://www-03.ibm.com/systems/z/hardware/zenterprise/zbc12.html" title="IBM zEnterprise Business Class 12">
+            zBC 12</a>: 2 General CP + 1 zIIP, 32 GB RAM, z/OS 2.1, IBM J9 VM R26 SR7 based on Oracle 7u55-b13</td>
     </tr>
   </tbody>
 </table>
