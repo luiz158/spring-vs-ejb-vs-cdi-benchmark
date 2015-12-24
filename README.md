@@ -1,4 +1,4 @@
-## The simple **JMH**-based benchmark of the **Spring MVC** vs **EJB** vs **CDI** RESTful web-service implementations
+## The simple JMH-based benchmark of the Spring MVC vs EJB vs CDI RESTful web-service implementations
 
 A very popular delusion in the Java world is **Spring Framework** provides better performance than good old **Enterprise Java Beans**. The
 best approach to compare technologies is just to get a benchmark. This repository contains three implementations of the same simple
@@ -70,6 +70,7 @@ WebSphere Application Server 8.5.5.8 Network Deployment
 Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM (7u85-b15)
 
 |![Lenovo results][Lenovo results]|![Lenovo logo][Lenovo logo]|
+|demo|demo|
 
 [Lenovo logo]: http://2.bp.blogspot.com/-7-XGK0t7LhM/VnxFsFMk7LI/AAAAAAAADrs/2f6vegROCYA/s1600/Lenovo-small.jpg
 [Lenovo results]: http://2.bp.blogspot.com/-Sle_djldiIw/VnxIq1tBVfI/AAAAAAAADsA/PaPzK50uNYg/s1600/Lenovo-result-t-4.png
