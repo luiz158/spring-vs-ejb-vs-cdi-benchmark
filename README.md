@@ -55,10 +55,11 @@ Example:
 
 #### WebSphere Application Server 8.5.5.4 for z/OS
 
+![Mainframe logo][zBC logo] IBM Mainframe [zBC 12]: 2 GeneralCP + 1 zIIP, 32 GB RAM, z/OS 2.1, IBM J9 VM R26 SR7 based on Oracle 7u55-b13
 
-IBM Mainframe [zBC 12]: 2 GeneralCP + 1 zIIP, 32 GB RAM, z/OS 2.1, Java 7
+![Mainframe results][zBC results]
 
-|![Mainframe results][zBC results]|![Mainframe logo][zBC logo]|
+Operations per second, the picture is clickable.
 
 [zBC 12]: http://www-03.ibm.com/systems/z/hardware/zenterprise/zbc12.html "IBM zEnterprise Business Class 12"
 [zBC logo]: http://4.bp.blogspot.com/-8WUs5saIO-I/VnxFsBBW_uI/AAAAAAAADrw/-E7etF9nE2I/s1600/zBC12-small.jpg
@@ -67,12 +68,11 @@ IBM Mainframe [zBC 12]: 2 GeneralCP + 1 zIIP, 32 GB RAM, z/OS 2.1, Java 7
 WebSphere Application Server 8.5.5.8 Network Deployment
 -------------------------------------------------------
 
-Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM (7u85-b15)
+![Lenovo logo][Lenovo logo] Lenovo ThinkPad T440: 2 Intel i5-4300U @ 1.90 GHz, 8 GB RAM, Windows 7 x64, IBM J9 VM R27 SR3 based on Oracle 7u85-b15
 
-|cell1|cell2|
-|---|---|
-|![Lenovo results][Lenovo results]|![Lenovo logo][Lenovo logo]|
-|demo|demo|
+![Lenovo results][Lenovo results]
+
+Operations per second, the picture is clickable.
 
 [Lenovo logo]: http://2.bp.blogspot.com/-7-XGK0t7LhM/VnxFsFMk7LI/AAAAAAAADrs/2f6vegROCYA/s1600/Lenovo-small.jpg
 [Lenovo results]: http://2.bp.blogspot.com/-Sle_djldiIw/VnxIq1tBVfI/AAAAAAAADsA/PaPzK50uNYg/s1600/Lenovo-result-t-4.png
