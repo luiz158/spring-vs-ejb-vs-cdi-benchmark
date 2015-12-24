@@ -1,4 +1,4 @@
-# The simple **JMH**-based benchmark of the **Spring MVC** vs **EJB** vs **CDI** RESTful web-service implementations
+## The simple **JMH**-based benchmark of the **Spring MVC** vs **EJB** vs **CDI** RESTful web-service implementations
 
 A very popular delusion in the Java world is **Spring Framework** provides better performance than good old **Enterprise Java Beans**. The
 best approach to compare technologies is just to get a benchmark. This repository contains three implementations of the same simple
