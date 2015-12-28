@@ -58,7 +58,7 @@ Example:
 
 ### Summary Diagram
 
-The test results data - troughput - are normalized: the Spring Framework is 100%, bigger value is better.
+The test results data - troughput - are normalized (the Spring Framework is 100%, bigger value is better):
 
 ![Summary Diagram](http://2.bp.blogspot.com/-XzR4h_VLOa0/VoEWInXvPSI/AAAAAAAADuc/iKYTeEEKLlk/s1600/ghraphical-results.png)
 
