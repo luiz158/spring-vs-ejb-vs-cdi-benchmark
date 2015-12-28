@@ -119,6 +119,6 @@ Operations per second, the picture is clickable:
 
 ![Lenovo results][Lenovo results]
 
-[Lenovo results]: http://1.bp.blogspot.com/-4BGmfKNkp0Y/VnxaqTERt1I/AAAAAAAADso/QnmLXysuIPw/s1600/Lenovo-result-t-4.png
+[Lenovo results]: http://2.bp.blogspot.com/-pGUHfVt3rzw/VoEUKd75DMI/AAAAAAAADuQ/Jpoh7WDyGbA/s1600/Lenovo-result-t-4.png
 
 Which result have you gone? Please, share it with me: <samolisov@gmail.com>
