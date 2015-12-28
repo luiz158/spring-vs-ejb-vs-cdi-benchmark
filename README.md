@@ -1,13 +1,12 @@
 ## The simple JMH-based benchmark of Spring MVC vs EJB vs CDI RESTful web-service implementations
 
-A very popular delusion in the Java world is **Spring Framework** provides better performance than good old **Enterprise Java Beans**. The
+A very popular delusion in the Java world is the **Spring Framework** provides better performance than good old **Enterprise Java Beans**. The
 best approach to compare technologies is just to get a benchmark. This repository contains three implementations of the same simple
 RESTful web-service based on **Spring MVC**, **EJB** and **CDI**, respectively. The service design is the following: resource providers are injected 
 into a "service" class and the "service" is injected into a controller. This is the usual design of an enterprise application: data-access 
 objects are injected into services and the services are injected into facades or controllers. Different technologies are used for *Dependency Injection* 
 as well as *RESTfulization*.
  
-
 The service just returns a string built by some letters and current time concatination:
 
 ![Services return the following result](http://1.bp.blogspot.com/-2ZHUvA7OSoo/Vn1t0F9m9yI/AAAAAAAADtk/6SWbm_pKXCQ/s1600/service-result.png)
@@ -18,6 +17,8 @@ nano/micro/milli/macro benchmarks written in Java and other languages targetting
 The benchmark code contained by the [file](rest-benchmark/src/main/java/psamolysov/demo/restws/benchmark/RestImplementationsBenchmark.java).
 
 Now it is time to destroy the myth!
+
+***
 
 ### Benchmark running
 
@@ -51,7 +52,18 @@ Example:
 -si true -gc true -p port=14633 -p implementation=ejb,cdi
 ```
 
+***
+
 ### Results
+
+### Summary Diagram
+
+The test results data are normalized: the Spring Framework is 100%.
+
+![Summary Diagram](http://2.bp.blogspot.com/-XzR4h_VLOa0/VoEWInXvPSI/AAAAAAAADuc/iKYTeEEKLlk/s1600/ghraphical-results.png)
+
+*EJB* is **up to 15%** faster than the *Spring Framework* while *CDI* is **up to 18%** slower. 
+
 
 #### WebSphere Application Server 8.5.5.4 for z/OS
 
