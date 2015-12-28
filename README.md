@@ -62,7 +62,7 @@ The test results data - troughput - are normalized (the Spring Framework is 100%
 
 ![Summary Diagram](http://2.bp.blogspot.com/-XzR4h_VLOa0/VoEWInXvPSI/AAAAAAAADuc/iKYTeEEKLlk/s1600/ghraphical-results.png)
 
-*EJB* is **up to 15%** faster than the *Spring Framework* while *CDI* is **up to 18%** slower. 
+*EJB* is **up to 15%** faster than the *Spring Framework* while *CDI* is **up to 19%** slower. 
 
 
 #### WebSphere Application Server 8.5.5.4 for z/OS
