@@ -6,7 +6,60 @@ RESTful web-service based on **Spring MVC**, **EJB** and **CDI**, respectively. 
 into a "service" class and the "service" is injected into a controller. This is the usual design of an enterprise application: data-access 
 objects are injected into services and the services are injected into facades or controllers. Different technologies are used for *Dependency Injection* 
 as well as *RESTfulization*.
- 
+
+Let's have a look at the EJB version.
+
+Resource:
+
+```java
+@Stateless
+public class EJBResourceA {
+
+    public String message() {
+        return "A#" + System.currentTimeMillis();
+    }
+}
+```
+
+Service:
+
+```java
+@Stateless
+public class MessageService {
+
+    @EJB
+    private EJBResourceA aresource;
+    
+    @EJB
+    private EJBResourceB bresource;
+    
+    public String message() {
+        return aresource.message() + bresource.message();
+    }
+}
+
+``` 
+
+REST Controller:
+
+```java
+@Stateless
+@Path("/")
+public class MessageController {
+
+    @EJB
+    private MessageService service;
+    
+    @GET
+    @Path("/message")
+    @Produces({"text/plain"})
+    public String message() {
+        return service.message();
+    }
+}
+
+```
+
 The service just returns a string built by some letters and current time concatination:
 
 ![Services return the following result](http://1.bp.blogspot.com/-2ZHUvA7OSoo/Vn1t0F9m9yI/AAAAAAAADtk/6SWbm_pKXCQ/s1600/service-result.png)
@@ -51,7 +104,6 @@ Example:
 # java -jar rest-benchmark/target/rest-benchmarks.jar ".*Benchmark" -f 4 -wi 20 -i 20 -t 4 
 -si true -gc true -p port=14633 -p implementation=ejb,cdi
 ```
-
 ***
 
 ### Results
@@ -120,5 +172,6 @@ Operations per second, the picture is clickable:
 ![Lenovo results][Lenovo results]
 
 [Lenovo results]: http://2.bp.blogspot.com/-pGUHfVt3rzw/VoEUKd75DMI/AAAAAAAADuQ/Jpoh7WDyGbA/s1600/Lenovo-result-t-4.png
+
 
 Which result have you gone? Please, share it with me: <samolisov@gmail.com>
