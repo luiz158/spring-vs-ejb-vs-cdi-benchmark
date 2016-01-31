@@ -14,7 +14,8 @@ public class MessageService {
     
     @EJB
     private EJBResourceB bresource;
-    
+
+    @TransactionAttribute(TransactionAttributeType.NEVER)
     public String message() {
         return aresource.message() + bresource.message();
     }
