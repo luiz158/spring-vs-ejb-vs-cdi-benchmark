@@ -18,6 +18,7 @@ public class MessageController {
     @GET
     @Path("/message")
     @Produces({"text/plain"})
+    @TransactionAttribute(TransactionAttributeType.NEVER)
     public String message() {
         return service.message();
     }
