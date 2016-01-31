@@ -1,14 +1,14 @@
 package psamolysov.demo.restws.controller;
 
-import javax.ejb.EJB;
-import javax.ejb.Stateless;
+import javax.ejb.*;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
 import psamolysov.demo.restws.service.MessageService;
 
-@Stateless
+@Singleton
+@ConcurrencyManagement(ConcurrencyManagementType.BEAN)
 @Path("/")
 public class MessageController {
 

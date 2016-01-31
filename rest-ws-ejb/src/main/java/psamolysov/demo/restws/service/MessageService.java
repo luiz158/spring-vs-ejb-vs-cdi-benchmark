@@ -1,12 +1,12 @@
 package psamolysov.demo.restws.service;
 
-import javax.ejb.EJB;
-import javax.ejb.Stateless;
+import javax.ejb.*;
 
 import psamolysov.demo.restws.resource.EJBResourceA;
 import psamolysov.demo.restws.resource.EJBResourceB;
 
-@Stateless
+@Singleton
+@ConcurrencyManagement(ConcurrencyManagementType.BEAN)
 public class MessageService {
 
     @EJB
