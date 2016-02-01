@@ -1,6 +1,6 @@
 = Docker images
 
-The goal of docker images is to run the benchmark easily
+The goal of these docker images is to run the benchmark easily against multiple application servers.
 
 
 == Wildfly
