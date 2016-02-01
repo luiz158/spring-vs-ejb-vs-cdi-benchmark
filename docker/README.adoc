@@ -1,10 +1,17 @@
-== Build it
+= Docker images
+
+The goal of docker images is to run the benchmark easily
+
+
+== Wildfly
+
+=== Build it
 
 ----
 docker build -t wildfly-bench wildfly/
 ----
 
-== Run it
+=== Run it
 
 ----
 docker run -it -p 8080:8080 wildfly-bench
