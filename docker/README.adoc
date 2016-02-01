@@ -1,0 +1,11 @@
+== Build it
+
+----
+docker build -t wildfly-bench wildfly/
+----
+
+== Run it
+
+----
+docker run -it -p 8080:8080 wildfly-bench
+----
